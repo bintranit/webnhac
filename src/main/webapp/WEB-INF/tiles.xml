@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="index.chung"
+		template="/WEB-INF/views/block/index.jsp">
+		<put-attribute name="hero" value="" />
+		<put-attribute name="topsong" value="" />
+		<put-attribute name="category" value="" />
+		<put-attribute name="playsong" value="" />
+		<put-attribute name="login" value="" />
+		<put-attribute name="casi" value="" />
+		<put-attribute name="infocasi" value="" />
+		<put-attribute name="thongtintaikhoan" value="" />
+	</definition>
+	<definition name="dangnhap"
+		template="/WEB-INF/views/block/dangnhap.jsp">
+
+	</definition>
+	<definition name="dangky"
+		template="/WEB-INF/views/block/dangky.jsp">
+
+	</definition>
+		<definition name="index_admin"
+		template="/WEB-INF/views/admin/trangchu.jsp">
+		<put-attribute name="admincasi" value="" />
+		<put-attribute name="admintheloai" value="" />
+		<put-attribute name="adminbaihat" value="" />
+	</definition>
+	
+	
+	<definition name="admincasi" extends="index_admin">
+		<put-attribute name="admincasi"
+			value="/WEB-INF/views/admin/casi.jsp" />		
+	</definition>
+		<definition name="admintheloai" extends="index_admin">
+		<put-attribute name="admintheloai"
+			value="/WEB-INF/views/admin/theloai.jsp" />		
+	</definition>
+		<definition name="adminbaihat" extends="index_admin">
+		<put-attribute name="adminbaihat"
+			value="/WEB-INF/views/admin/baihat.jsp" />		
+	</definition>
+	
+	<definition name="index_user" extends="index.chung">
+
+		<put-attribute name="hero"
+			value="/WEB-INF/views/page/hero.jsp" />
+		<put-attribute name="topsong"
+			value="/WEB-INF/views/page/topsong.jsp" />
+	</definition>
+
+	<definition name="category" extends="index.chung">
+		<put-attribute name="category"
+			value="/WEB-INF/views/page/category.jsp" />
+	</definition>
+
+	<definition name="playsong" extends="index.chung">
+		<put-attribute name="playsong"
+			value="/WEB-INF/views/page/playsong.jsp" />
+	</definition>
+	<definition name="login" extends="index.chung">
+		<put-attribute name="login"
+			value="/WEB-INF/views/page/login.jsp" />
+	</definition>
+		<definition name="casi" extends="index.chung">
+		<put-attribute name="casi"
+			value="/WEB-INF/views/page/casi.jsp" />
+	</definition>
+	<definition name="infocasi" extends="index.chung">
+		<put-attribute name="infocasi"
+			value="/WEB-INF/views/page/infocasi.jsp" />
+	</definition>
+	
+	<definition name="thongtintaikhoan" extends="index.chung">
+		<put-attribute name="thongtintaikhoan"
+			value="/WEB-INF/views/page/thongtintaikhoan.jsp" />
+	</definition>
+		
+
+	
+
+
+
+
+
+</tiles-definitions>

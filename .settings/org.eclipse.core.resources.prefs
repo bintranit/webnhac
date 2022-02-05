@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//src/main/java/webnhac/Controller/HomeController.java=UTF-8
+encoding//src/main/java/webnhac/Dao/Imp/CommentDao.java=UTF-8
+encoding//src/main/java/webnhac/Dao/Imp/baihatDao.java=UTF-8
+encoding//src/main/java/webnhac/Dao/Imp/casiDao.java=UTF-8
+encoding//src/main/java/webnhac/Dao/Imp/theloaiDao.java=UTF-8
+encoding//src/main/java/webnhac/Dao/Imp/userDao.java=UTF-8
+encoding//src/main/webapp/WEB-INF/views/block/index.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/page/category.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/page/hero.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/page/playsong.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/page/thongtintaikhoan.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/page/topsong.jsp=UTF-8
+encoding//src/main/webapp/common/taglib.jsp=UTF-8
